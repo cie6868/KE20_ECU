@@ -1,0 +1,71 @@
+{
+    "!!! WARNING !!!": "PLEASE DO NOT MODIFY THIS FILE! USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags",
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Include",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/STM32F1xx_HAL_Driver/Inc",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/Common",
+                "c:/Users/Gamini/Documents/Projects/EFI/KeCube/KeEcu/lib/Cube/src",
+                "c:/Users/Gamini/Documents/Projects/EFI/KeCube/KeEcu/lib/Cube/include",
+                "c:/Users/Gamini/Documents/Projects/EFI/KeCube/KeEcu/lib/Logging",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ak4343",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/cs43l22",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/hx8347d",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9320",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9325",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/lis302dl",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/spfd5408",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/st7735",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stlm75",
+                "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stmpe811",
+                "C:/Users/Gamini/.platformio/packages/tool-unity",
+                "c:/Users/Gamini/Documents/Projects/EFI/KeCube/KeEcu/include",
+                "c:/Users/Gamini/Documents/Projects/EFI/KeCube/KeEcu/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/.browse.c_cpp.db",
+                "path": [
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Include",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/STM32F1xx_HAL_Driver/Inc",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/Common",
+                    "c:/Users/Gamini/Documents/Projects/EFI/KeCube/KeEcu/lib/Cube/src",
+                    "c:/Users/Gamini/Documents/Projects/EFI/KeCube/KeEcu/lib/Cube/include",
+                    "c:/Users/Gamini/Documents/Projects/EFI/KeCube/KeEcu/lib/Logging",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ak4343",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/cs43l22",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/hx8347d",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9320",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9325",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/lis302dl",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/spfd5408",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/st7735",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stlm75",
+                    "C:/Users/Gamini/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stmpe811",
+                    "C:/Users/Gamini/.platformio/packages/tool-unity",
+                    "c:/Users/Gamini/Documents/Projects/EFI/KeCube/KeEcu/include",
+                    "c:/Users/Gamini/Documents/Projects/EFI/KeCube/KeEcu/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=30603",
+                "STM32F1",
+                "STM32F103xB",
+                "USE_HAL_DRIVER",
+                "F_CPU=72000000L",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/Users/Gamini/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe -mthumb -mcpu=cortex-m3",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
